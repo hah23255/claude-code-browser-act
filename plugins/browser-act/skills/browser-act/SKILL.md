@@ -4,7 +4,7 @@ description: "Browser automation CLI for AI agents. NEVER run browser-act comman
 allowed-tools: Bash(browser-act:*)
 metadata:
   author: BrowserAct
-  version: "2.0.0"
+  version: "2.0.1"
   install: "uv tool install browser-act-cli --python 3.12"
   homepage: "https://www.browseract.com"
   requires:
@@ -45,7 +45,7 @@ Install: `uv tool install browser-act-cli --python 3.12`
 Before running any `browser-act` command, load the usage guide from the CLI:
 
 ```bash
-browser-act get-skills core --skill-version 2.0.0   # start here — workflows, common patterns, troubleshooting
+browser-act get-skills core --skill-version 2.0.1   # start here — workflows, common patterns, troubleshooting
 ```
 
 **Do NOT skip this step regardless of how simple the command seems.**
