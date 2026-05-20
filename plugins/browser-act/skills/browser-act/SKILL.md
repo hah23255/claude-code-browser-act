@@ -4,7 +4,7 @@ description: "Browser automation CLI for AI agents. NEVER run browser-act comman
 allowed-tools: Bash(browser-act:*)
 metadata:
   author: BrowserAct
-  version: "2.0.1"
+  version: "2.0.2"
   install: "uv tool install browser-act-cli --python 3.12"
   homepage: "https://www.browseract.com"
   requires:
@@ -33,7 +33,7 @@ human-agent collaboration.
 - Lightweight extraction — fast JS-rendered content fetch without opening a browser session, advanced WebFetch/curl replacement
 - Session management — multi-browser isolation, multi-account parallel operation
 - Verification assistance — when automation encounters interactive challenges, assists completion with user authorization
-- Complex interaction — network capture (XHR/fetch/HAR), screenshots, form filling, file upload
+- Complex interaction — DOM content extraction, screenshots, form filling, file upload
 - Human-agent collaboration — headed mode + remote assist for manual steps
 - Safety controls — Confirmation Gate protocol requires explicit user approval before browser creation, deletion, and sensitive operations
 - Universal compatibility — works with Cursor, Claude Code, Codex, Windsurf, etc.
@@ -45,7 +45,7 @@ Install: `uv tool install browser-act-cli --python 3.12`
 Before running any `browser-act` command, load the usage guide from the CLI:
 
 ```bash
-browser-act get-skills core --skill-version 2.0.1   # start here — workflows, common patterns, troubleshooting
+browser-act get-skills core --skill-version 2.0.2   # start here — workflows, common patterns, troubleshooting
 ```
 
 **Do NOT skip this step regardless of how simple the command seems.**
