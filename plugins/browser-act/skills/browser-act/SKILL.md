@@ -23,7 +23,7 @@ metadata:
 
 # browser-act
 
-Built by [BrowserAct](https://www.browseract.com) — Browser automation CLI for AI agents · [GitHub](https://github.com/browseract/browser-act)
+Built by [BrowserAct](https://www.browseract.com) — Browser automation CLI for AI agents · [GitHub](https://github.com/browser-act/skills/tree/main/browser-act)
 
 Runs a full browser engine: navigation & interaction, data extraction & network
 capture, screenshots, form automation, multi-browser parallel operation,
