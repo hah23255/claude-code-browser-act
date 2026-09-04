@@ -11,3 +11,7 @@ Thumbs.db
 
 # Local tooling
 .claude/settings.local.json
+
+# Local design artifacts
+/docs/superpowers/specs/
+/docs/superpowers/plans/
